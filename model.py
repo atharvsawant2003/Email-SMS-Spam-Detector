@@ -31,8 +31,8 @@ def transform_text(text):
     
             
     return " ".join(y)
-tfidf=pickle.load(open("vectorizr.pkl",'rb'))
-model=pickle.load(open("spamd.pkl",'rb'))
+tfidf=pickle.load(open("models/vectorizr.pkl",'rb'))
+model=pickle.load(open("models/spamd.pkl",'rb'))
 
 st.title("Email/SMS Spam Detector")
 
